@@ -42,7 +42,5 @@ public class Publication {
 	public void setAuthors(String[] authors) {
 		this.authors = authors;
 	}
-	
-	
 
 }

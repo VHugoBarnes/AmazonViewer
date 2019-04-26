@@ -1,0 +1,4 @@
+Dname = com.mysql.jdbc.Driver
+URL = jdbc:mysql://localhost:3306/amazonviewer?useSSL=false
+Uname = amazonviewer
+password = amazonviewer

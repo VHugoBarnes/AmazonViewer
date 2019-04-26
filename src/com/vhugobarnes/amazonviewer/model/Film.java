@@ -26,7 +26,10 @@ public abstract class Film {
 	private short year;
 	private boolean viewed;
 	
-	
+
+	public Film() {
+
+	}
 	
 	public Film(String title, String genre, String creator, int duration) {
 		super();

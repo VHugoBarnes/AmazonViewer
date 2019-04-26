@@ -103,7 +103,9 @@ public class Main {
 		}while(exit != 0);
 	}
 	
-	static ArrayList<Movie> movies = Movie.makeMoviesList();
+	static ArrayList<Movie> movies = new ArrayList();
+
+
 
 	/**
 	 * <p>
@@ -111,6 +113,10 @@ public class Main {
 	 * </p>
 	 * */
 	public static void showMovies() {
+
+		try {movies = Movie.makeMoviesList();}
+		catch (Exception e) {e.printStackTrace();}
+
 		int exit = 1;
 		
 		do {
@@ -372,18 +378,3 @@ public class Main {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
